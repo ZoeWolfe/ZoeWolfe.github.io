@@ -1,1 +1,17 @@
-Hello World
+---
+Title: home
+MyName: Zoe
+---
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <h1>{{ "Hello World!" | downcase }}</h1>
+    <h2>{{ page.MyName }}</h2>
+    <h1> {{ page.Title }}</h1>
+  </body>
+</html>
